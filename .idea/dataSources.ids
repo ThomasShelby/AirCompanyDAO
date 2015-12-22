@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - company@localhost" uuid="36054b86-bd41-4e57-843f-bfa784d2c7a5">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="MySQL - aircompany@localhost" uuid="10a152a7-9327-4167-9c31-8d33cac6ea84">
+    <database-info product="MySQL" version="5.6.25-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="aircompany"/>
+    <table name="dispatcher" schema="" catalog="aircompany" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="login" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="passwrod" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="flight_dispatcher_id_fk" table="flight" schema="" catalog="aircompany" columns="dispatcher_id"/>
+    </table>
+    <table name="employee" schema="" catalog="aircompany" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="spec_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="login" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="group_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="employee_group_id_fk" columns="group_id" ref-table="group" ref-schema="" ref-catalog="aircompany" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="employee_specialization_id_fk" columns="spec_id" ref-table="specialization" ref-schema="" ref-catalog="aircompany" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="employee_group_id_fk" unique="false" columns="group_id"/>
+      <index name="employee_specialization_id_fk" unique="false" columns="spec_id"/>
+    </table>
+    <table name="flight" schema="" catalog="aircompany" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="dispatch" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="arrival" sqlType="VARCHAR" precision="60" scale="0" nullable="false" jdbcType="12"/>
+      <column name="group_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="disp_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="arr_date" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="dispatcher_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="flight_dispatcher_id_fk" columns="dispatcher_id" ref-table="dispatcher" ref-schema="" ref-catalog="aircompany" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="flight_group_id_fk" columns="group_id" ref-table="group" ref-schema="" ref-catalog="aircompany" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="flight_dispatcher_id_fk" unique="false" columns="dispatcher_id"/>
+      <index name="flight_group_id_fk" unique="false" columns="group_id"/>
+    </table>
+    <table name="group" schema="" catalog="aircompany" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="employee_group_id_fk" table="employee" schema="" catalog="aircompany" columns="group_id"/>
+      <exported-key name="flight_group_id_fk" table="flight" schema="" catalog="aircompany" columns="group_id"/>
+    </table>
+    <table name="specialization" schema="" catalog="aircompany" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="ENUM" precision="11" scale="0" nullable="false" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="employee_specialization_id_fk" table="employee" schema="" catalog="aircompany" columns="spec_id"/>
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,44 @@
+CREATE TABLE specialization
+(
+    id INT(11) PRIMARY KEY NOT NULL,
+    name ENUM('PILOT', 'NAVIGATOR', 'AIR-HOSTESS', 'OPERATOR') NOT NULL
+);
+CREATE TABLE employee
+(
+    id INT(11) PRIMARY KEY NOT NULL,
+    name VARCHAR(60) NOT NULL,
+    last_name VARCHAR(60) NOT NULL,
+    spec_id INT(11) NOT NULL,
+    login VARCHAR(60) NOT NULL,
+    password VARCHAR(128) NOT NULL,
+    group_id INT(11),
+    CONSTRAINT employee_group_id_fk FOREIGN KEY (group_id) REFERENCES `group` (id),
+    CONSTRAINT employee_specialization_id_fk FOREIGN KEY (spec_id) REFERENCES specialization (id)
+);
+CREATE INDEX employee_group_id_fk ON employee (group_id);
+CREATE INDEX employee_specialization_id_fk ON employee (spec_id);
+CREATE TABLE dispatcher
+(
+    id INT(11) PRIMARY KEY NOT NULL,
+    name VARCHAR(60) NOT NULL,
+    login VARCHAR(60) NOT NULL,
+    passwrod VARCHAR(128) NOT NULL
+);
+CREATE TABLE `group`
+(
+    id INT(11) PRIMARY KEY NOT NULL
+);
+CREATE TABLE flight
+(
+    id INT(11) PRIMARY KEY NOT NULL,
+    dispatch VARCHAR(60) NOT NULL,
+    arrival VARCHAR(60) NOT NULL,
+    group_id INT(11),
+    disp_date TIMESTAMP DEFAULT 'CURRENT_TIMESTAMP' NOT NULL,
+    arr_date TIMESTAMP DEFAULT '0000-00-00 00:00:00' NOT NULL,
+    dispatcher_id INT(11),
+    CONSTRAINT flight_dispatcher_id_fk FOREIGN KEY (dispatcher_id) REFERENCES dispatcher (id),
+    CONSTRAINT flight_group_id_fk FOREIGN KEY (group_id) REFERENCES `group` (id)
+);
+CREATE INDEX flight_dispatcher_id_fk ON flight (dispatcher_id);
+CREATE INDEX flight_group_id_fk ON flight (group_id);
