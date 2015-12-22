@@ -76,13 +76,13 @@ public class employeeDAOImpl implements employeeDAO, BaseDAO<Employee> {
 
         while (rs.next()) {
             employee = new Employee();
-            employee.setId(Integer.parseInt(Constant.Employee.ID));
-            employee.setName(Constant.Employee.NAME);
-            employee.setLastName(Constant.Employee.LAST_NAME);
-            employee.setSpec_id(Integer.parseInt(Constant.Employee.SPEC_ID));
-            employee.setLogin(Constant.Employee.LOGIN);
-            employee.setPassword(Constant.Employee.PASSWORD);
-            employee.setGroup_id(Integer.parseInt(Constant.Employee.GROUP_ID));
+            employee.setId(Integer.parseInt(rs.getString(Constant.Employee.ID)));
+            employee.setName(rs.getString(Constant.Employee.NAME));
+            employee.setLastName(rs.getString(Constant.Employee.LAST_NAME));
+            employee.setSpec_id(Integer.parseInt(rs.getString(Constant.Employee.SPEC_ID)));
+            employee.setLogin(rs.getString(Constant.Employee.LOGIN));
+            employee.setPassword(rs.getString(Constant.Employee.PASSWORD));
+            employee.setGroup_id(Integer.parseInt(rs.getString(Constant.Employee.GROUP_ID)));
         }
 
         return employee;
@@ -111,13 +111,13 @@ public class employeeDAOImpl implements employeeDAO, BaseDAO<Employee> {
 
         while (rs.next()) {
             employee = new Employee();
-            employee.setId(Integer.parseInt(Constant.Employee.ID));
-            employee.setName(Constant.Employee.NAME);
-            employee.setLastName(Constant.Employee.LAST_NAME);
-            employee.setSpec_id(Integer.parseInt(Constant.Employee.SPEC_ID));
-            employee.setLogin(Constant.Employee.LOGIN);
-            employee.setPassword(Constant.Employee.PASSWORD);
-            employee.setGroup_id(Integer.parseInt(Constant.Employee.GROUP_ID));
+            employee.setId(Integer.parseInt(rs.getString(Constant.Employee.ID)));
+            employee.setName(rs.getString(Constant.Employee.NAME));
+            employee.setLastName(rs.getString(Constant.Employee.LAST_NAME));
+            employee.setSpec_id(Integer.parseInt(rs.getString(Constant.Employee.SPEC_ID)));
+            employee.setLogin(rs.getString(Constant.Employee.LOGIN));
+            employee.setPassword(rs.getString(Constant.Employee.PASSWORD));
+            employee.setGroup_id(Integer.parseInt(rs.getString(Constant.Employee.GROUP_ID)));
 
             empls.add(employee);
         }
@@ -138,13 +138,13 @@ public class employeeDAOImpl implements employeeDAO, BaseDAO<Employee> {
 
         while (rs.next()) {
             employee = new Employee();
-            employee.setId(Integer.parseInt(Constant.Employee.ID));
-            employee.setName(Constant.Employee.NAME);
-            employee.setLastName(Constant.Employee.LAST_NAME);
-            employee.setSpec_id(Integer.parseInt(Constant.Employee.SPEC_ID));
-            employee.setLogin(Constant.Employee.LOGIN);
-            employee.setPassword(Constant.Employee.PASSWORD);
-            employee.setGroup_id(Integer.parseInt(Constant.Employee.GROUP_ID));
+            employee.setId(Integer.parseInt(rs.getString(Constant.Employee.ID)));
+            employee.setName(rs.getString(Constant.Employee.NAME));
+            employee.setLastName(rs.getString(Constant.Employee.LAST_NAME));
+            employee.setSpec_id(Integer.parseInt(rs.getString(Constant.Employee.SPEC_ID)));
+            employee.setLogin(rs.getString(Constant.Employee.LOGIN));
+            employee.setPassword(rs.getString(Constant.Employee.PASSWORD));
+            employee.setGroup_id(Integer.parseInt(rs.getString(Constant.Employee.GROUP_ID)));
 
             empls.add(employee);
         }

@@ -70,10 +70,10 @@ public class dispatcherDAOImpl implements dispatcherDAO, BaseDAO<Dispatcher> {
 
         while (rs.next()) {
             dispatcher = new Dispatcher();
-            dispatcher.setId(Integer.parseInt(Constant.Dispatcher.ID));
-            dispatcher.setName(Constant.Dispatcher.NAME);
-            dispatcher.setLogin(Constant.Dispatcher.LOGIN);
-            dispatcher.setPassword(Constant.Dispatcher.PASSWORD);
+            dispatcher.setId(Integer.parseInt(rs.getString(Constant.Dispatcher.ID)));
+            dispatcher.setName(rs.getString(Constant.Dispatcher.NAME));
+            dispatcher.setLogin(rs.getString(Constant.Dispatcher.LOGIN));
+            dispatcher.setPassword(rs.getString(Constant.Dispatcher.PASSWORD));
         }
 
         return dispatcher;
@@ -102,10 +102,10 @@ public class dispatcherDAOImpl implements dispatcherDAO, BaseDAO<Dispatcher> {
 
         while (rs.next()) {
             dispatcher = new Dispatcher();
-            dispatcher.setId(Integer.parseInt(Constant.Dispatcher.ID));
-            dispatcher.setName(Constant.Dispatcher.NAME);
-            dispatcher.setLogin(Constant.Dispatcher.LOGIN);
-            dispatcher.setPassword(Constant.Dispatcher.PASSWORD);
+            dispatcher.setId(Integer.parseInt(rs.getString(Constant.Dispatcher.ID)));
+            dispatcher.setName(rs.getString(Constant.Dispatcher.NAME));
+            dispatcher.setLogin(rs.getString(Constant.Dispatcher.LOGIN));
+            dispatcher.setPassword(rs.getString(Constant.Dispatcher.PASSWORD));
 
             dispt.add(dispatcher);
         }
@@ -126,10 +126,10 @@ public class dispatcherDAOImpl implements dispatcherDAO, BaseDAO<Dispatcher> {
 
         while (rs.next()) {
             dispatcher = new Dispatcher();
-            dispatcher.setId(Integer.parseInt(Constant.Dispatcher.ID));
-            dispatcher.setName(Constant.Dispatcher.NAME);
-            dispatcher.setLogin(Constant.Dispatcher.LOGIN);
-            dispatcher.setPassword(Constant.Dispatcher.PASSWORD);
+            dispatcher.setId(Integer.parseInt(rs.getString(Constant.Dispatcher.ID)));
+            dispatcher.setName(rs.getString(Constant.Dispatcher.NAME));
+            dispatcher.setLogin(rs.getString(Constant.Dispatcher.LOGIN));
+            dispatcher.setPassword(rs.getString(Constant.Dispatcher.PASSWORD));
 
             dispt.add(dispatcher);
         }

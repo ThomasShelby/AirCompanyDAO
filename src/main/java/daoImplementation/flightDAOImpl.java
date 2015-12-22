@@ -73,13 +73,13 @@ public class flightDAOImpl implements flightDAO, BaseDAO<Flight> {
 
         while (rs.next()) {
             flight = new Flight();
-            flight.setId(Integer.parseInt(Constant.Flight.ID));
-            flight.setDispatch(Constant.Flight.DISPATCH);
-            flight.setArrival(Constant.Flight.ARRIVAL);
-            flight.setGroup_id(Integer.parseInt(Constant.Flight.GROUP_ID));
-            flight.setDispDate(Timestamp.valueOf(Constant.Flight.DISP_DATE));
-            flight.setArrDate(Timestamp.valueOf(Constant.Flight.ARR_DATE));
-            flight.setDispatcher_id(Integer.parseInt(Constant.Flight.DISPATCHER_ID));
+            flight.setId(Integer.parseInt(rs.getString(Constant.Flight.ID)));
+            flight.setDispatch(rs.getString(Constant.Flight.DISPATCH));
+            flight.setArrival(rs.getString(Constant.Flight.ARRIVAL));
+            flight.setGroup_id(Integer.parseInt(rs.getString(Constant.Flight.GROUP_ID)));
+            flight.setDispDate(Timestamp.valueOf(rs.getString(Constant.Flight.DISP_DATE)));
+            flight.setArrDate(Timestamp.valueOf(rs.getString(Constant.Flight.ARR_DATE)));
+            flight.setDispatcher_id(Integer.parseInt(rs.getString(Constant.Flight.DISPATCHER_ID)));
         }
 
         return flight;
@@ -108,13 +108,13 @@ public class flightDAOImpl implements flightDAO, BaseDAO<Flight> {
 
         while (rs.next()) {
             flight = new Flight();
-            flight.setId(Integer.parseInt(Constant.Flight.ID));
-            flight.setDispatch(Constant.Flight.DISPATCH);
-            flight.setArrival(Constant.Flight.ARRIVAL);
-            flight.setGroup_id(Integer.parseInt(Constant.Flight.GROUP_ID));
-            flight.setDispDate(Timestamp.valueOf(Constant.Flight.DISP_DATE));
-            flight.setArrDate(Timestamp.valueOf(Constant.Flight.ARR_DATE));
-            flight.setDispatcher_id(Integer.parseInt(Constant.Flight.DISPATCHER_ID));
+            flight.setId(Integer.parseInt(rs.getString(Constant.Flight.ID)));
+            flight.setDispatch(rs.getString(Constant.Flight.DISPATCH));
+            flight.setArrival(rs.getString(Constant.Flight.ARRIVAL));
+            flight.setGroup_id(Integer.parseInt(rs.getString(Constant.Flight.GROUP_ID)));
+            flight.setDispDate(Timestamp.valueOf(rs.getString(Constant.Flight.DISP_DATE)));
+            flight.setArrDate(Timestamp.valueOf(rs.getString(Constant.Flight.ARR_DATE)));
+            flight.setDispatcher_id(Integer.parseInt(rs.getString(Constant.Flight.DISPATCHER_ID)));
 
             flg.add(flight);
         }
@@ -135,13 +135,13 @@ public class flightDAOImpl implements flightDAO, BaseDAO<Flight> {
 
         while (rs.next()) {
             flight = new Flight();
-            flight.setId(Integer.parseInt(Constant.Flight.ID));
-            flight.setDispatch(Constant.Flight.DISPATCH);
-            flight.setArrival(Constant.Flight.ARRIVAL);
-            flight.setGroup_id(Integer.parseInt(Constant.Flight.GROUP_ID));
-            flight.setDispDate(Timestamp.valueOf(Constant.Flight.DISP_DATE));
-            flight.setArrDate(Timestamp.valueOf(Constant.Flight.ARR_DATE));
-            flight.setDispatcher_id(Integer.parseInt(Constant.Flight.DISPATCHER_ID));
+            flight.setId(Integer.parseInt(rs.getString(Constant.Flight.ID)));
+            flight.setDispatch(rs.getString(Constant.Flight.DISPATCH));
+            flight.setArrival(rs.getString(Constant.Flight.ARRIVAL));
+            flight.setGroup_id(Integer.parseInt(rs.getString(Constant.Flight.GROUP_ID)));
+            flight.setDispDate(Timestamp.valueOf(rs.getString(Constant.Flight.DISP_DATE)));
+            flight.setArrDate(Timestamp.valueOf(rs.getString(Constant.Flight.ARR_DATE)));
+            flight.setDispatcher_id(Integer.parseInt(rs.getString(Constant.Flight.DISPATCHER_ID)));
 
             flg.add(flight);
         }
@@ -162,13 +162,13 @@ public class flightDAOImpl implements flightDAO, BaseDAO<Flight> {
 
         while (rs.next()) {
             flight = new Flight();
-            flight.setId(Integer.parseInt(Constant.Flight.ID));
-            flight.setDispatch(Constant.Flight.DISPATCH);
-            flight.setArrival(Constant.Flight.ARRIVAL);
-            flight.setGroup_id(Integer.parseInt(Constant.Flight.GROUP_ID));
-            flight.setDispDate(Timestamp.valueOf(Constant.Flight.DISP_DATE));
-            flight.setArrDate(Timestamp.valueOf(Constant.Flight.ARR_DATE));
-            flight.setDispatcher_id(Integer.parseInt(Constant.Flight.DISPATCHER_ID));
+            flight.setId(Integer.parseInt(rs.getString(Constant.Flight.ID)));
+            flight.setDispatch(rs.getString(Constant.Flight.DISPATCH));
+            flight.setArrival(rs.getString(Constant.Flight.ARRIVAL));
+            flight.setGroup_id(Integer.parseInt(rs.getString(Constant.Flight.GROUP_ID)));
+            flight.setDispDate(Timestamp.valueOf(rs.getString(Constant.Flight.DISP_DATE)));
+            flight.setArrDate(Timestamp.valueOf(rs.getString(Constant.Flight.ARR_DATE)));
+            flight.setDispatcher_id(Integer.parseInt(rs.getString(Constant.Flight.DISPATCHER_ID)));
 
             flg.add(flight);
         }
@@ -188,13 +188,13 @@ public class flightDAOImpl implements flightDAO, BaseDAO<Flight> {
 
         while (rs.next()) {
             flight = new Flight();
-            flight.setId(Integer.parseInt(Constant.Flight.ID));
-            flight.setDispatch(Constant.Flight.DISPATCH);
-            flight.setArrival(Constant.Flight.ARRIVAL);
-            flight.setGroup_id(Integer.parseInt(Constant.Flight.GROUP_ID));
-            flight.setDispDate(Timestamp.valueOf(Constant.Flight.DISP_DATE));
-            flight.setArrDate(Timestamp.valueOf(Constant.Flight.ARR_DATE));
-            flight.setDispatcher_id(Integer.parseInt(Constant.Flight.DISPATCHER_ID));
+            flight.setId(Integer.parseInt(rs.getString(Constant.Flight.ID)));
+            flight.setDispatch(rs.getString(Constant.Flight.DISPATCH));
+            flight.setArrival(rs.getString(Constant.Flight.ARRIVAL));
+            flight.setGroup_id(Integer.parseInt(rs.getString(Constant.Flight.GROUP_ID)));
+            flight.setDispDate(Timestamp.valueOf(rs.getString(Constant.Flight.DISP_DATE)));
+            flight.setArrDate(Timestamp.valueOf(rs.getString(Constant.Flight.ARR_DATE)));
+            flight.setDispatcher_id(Integer.parseInt(rs.getString(Constant.Flight.DISPATCHER_ID)));
 
             flg.add(flight);
         }

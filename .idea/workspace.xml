@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e51461-b6f3-4c92-98d8-ebf3f472a81f" name="Default" comment="modified class model.Employee">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/BaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/persistant/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Constant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/dispatcherDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/employeeDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/flightDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/groupDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/groupDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/specializationDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java" />
     </list>
     <ignored path="company.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="groupDAOImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="groupDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/groupDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62794614">
+            <state vertical-scroll-proportion="0.0">
               <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,6 +66,26 @@
                 <marker date="1450774621948" expanded="true" signature="1975:1989" placeholder="SELECT * FRO..employee..." />
                 <marker date="1450774621948" expanded="true" signature="1975:1994" placeholder="SELECT * FRO..group..." />
                 <marker date="1450774621948" expanded="true" signature="2616:2644" placeholder="SELECT FROM flight..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcherDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="128" column="59" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2958#2970#0" expanded="true" />
+                <element signature="e#3820#3832#0" expanded="true" />
+                <marker date="1450776438585" expanded="true" signature="819:926" placeholder="INSERT INTO ..." />
+                <marker date="1450776438585" expanded="true" signature="1361:1421" placeholder="UPDATE dispa..." />
+                <marker date="1450776438585" expanded="true" signature="1923:1956" placeholder="SELECT FROM dispatcher..." />
+                <marker date="1450776438585" expanded="true" signature="2664:2697" placeholder="DELETE FROM ..." />
+                <marker date="1450776438585" expanded="true" signature="3089:3113" placeholder="SELECT * FRO..dispatcher..." />
+                <marker date="1450776438585" expanded="true" signature="3951:3986" placeholder="SELECT FROM dispatcher..." />
               </folding>
             </state>
           </provider>
@@ -99,13 +105,46 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="149" column="5" selection-start-line="125" selection-start-column="4" selection-end-line="149" selection-end-column="5" />
+              <caret line="196" column="66" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3443#3451#0" expanded="true" />
-                <element signature="e#4457#4465#0" expanded="true" />
-                <element signature="e#5509#5517#0" expanded="true" />
-                <element signature="e#6535#6543#0" expanded="true" />
+                <element signature="e#3541#3549#0" expanded="true" />
+                <element signature="e#4653#4661#0" expanded="true" />
+                <element signature="e#5803#5811#0" expanded="true" />
+                <element signature="e#6927#6935#0" expanded="true" />
+                <marker date="1450776438606" expanded="true" signature="686:837" placeholder="INSERT INTO ..." />
+                <marker date="1450776438606" expanded="true" signature="1471:1575" placeholder="update fligh..." />
+                <marker date="1450776438606" expanded="true" signature="2269:2298" placeholder="SELECT FROM flight..." />
+                <marker date="1450776438606" expanded="true" signature="3269:3298" placeholder="DELETE FROM ..." />
+                <marker date="1450776438606" expanded="true" signature="3668:3690" placeholder="SELECT * FRO..employee..." />
+                <marker date="1450776438606" expanded="true" signature="4780:4815" placeholder="SELECT FROM flight..." />
+                <marker date="1450776438606" expanded="true" signature="5930:5964" placeholder="SELECT FROM flight..." />
+                <marker date="1450776438606" expanded="true" signature="7054:7083" placeholder="SELECT FROM flight..." />
+                <marker date="1450776438606" expanded="true" signature="8133:8202" placeholder="select COUNT..flight..." />
+                <marker date="1450776438606" expanded="true" signature="8659:8726" placeholder="select COUNT..flight..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specializationDAOImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7441077">
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2620#2636#0" expanded="true" />
+                <element signature="e#3396#3412#0" expanded="true" />
+                <element signature="e#4211#4227#0" expanded="true" />
+                <marker date="1450776438643" expanded="true" signature="818:868" placeholder="INSERT INTO ..." />
+                <marker date="1450776438643" expanded="true" signature="1216:1259" placeholder="update speci..." />
+                <marker date="1450776438643" expanded="true" signature="1684:1721" placeholder="SELECT FROM specialization..." />
+                <marker date="1450776438643" expanded="true" signature="2307:2344" placeholder="DELETE FROM ..." />
+                <marker date="1450776438643" expanded="true" signature="2755:2783" placeholder="SELECT * FRO..specialization..." />
+                <marker date="1450776438643" expanded="true" signature="3531:3570" placeholder="SELECT FROM specialization..." />
+                <marker date="1450776438643" expanded="true" signature="4346:4383" placeholder="SELECT FROM specialization..." />
+                <marker date="1450776438643" expanded="true" signature="5036:5105" placeholder="select COUNT..specialization..." />
               </folding>
             </state>
           </provider>
@@ -127,17 +166,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <caret line="84" column="91" selection-start-line="84" selection-start-column="91" selection-end-line="84" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3485#3495#0" expanded="true" />
-                <element signature="e#4484#4494#0" expanded="true" />
-                <marker date="1450773693212" expanded="true" signature="803:944" placeholder="INSERT INTO ..." />
-                <marker date="1450773693212" expanded="true" signature="1551:1645" placeholder="update emplo..." />
-                <marker date="1450773693212" expanded="true" signature="2320:2351" placeholder="SELECT FROM employee..." />
-                <marker date="1450773693212" expanded="true" signature="3201:3232" placeholder="DELETE FROM ..." />
-                <marker date="1450773693212" expanded="true" signature="3614:3636" placeholder="SELECT * FRO..employee..." />
-                <marker date="1450773693212" expanded="true" signature="4613:4646" placeholder="SELECT FROM employee..." />
+                <element signature="e#3583#3593#0" expanded="true" />
+                <element signature="e#4680#4690#0" expanded="true" />
+                <marker date="1450776438561" expanded="true" signature="803:944" placeholder="INSERT INTO ..." />
+                <marker date="1450776438561" expanded="true" signature="1551:1645" placeholder="update emplo..." />
+                <marker date="1450776438561" expanded="true" signature="2320:2351" placeholder="SELECT FROM employee..." />
+                <marker date="1450776438561" expanded="true" signature="3299:3330" placeholder="DELETE FROM ..." />
+                <marker date="1450776438561" expanded="true" signature="3712:3734" placeholder="SELECT * FRO..employee..." />
+                <marker date="1450776438561" expanded="true" signature="4809:4842" placeholder="SELECT FROM employee..." />
               </folding>
             </state>
           </provider>
@@ -204,14 +243,14 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/flightDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/persistant/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/specializationDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/group.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/groupDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/daoImplementation/groupDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -1002,7 +1041,7 @@
       <workItem from="1450558490436" duration="533000" />
       <workItem from="1450559171387" duration="1099000" />
       <workItem from="1450727441926" duration="4154000" />
-      <workItem from="1450733418890" duration="20386000" />
+      <workItem from="1450733418890" duration="21451000" />
     </task>
     <task id="LOCAL-00001" summary="added log4j supporting">
       <created>1450447074786</created>
@@ -1050,7 +1089,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33596000" />
+    <option name="totallyTimeSpent" value="34661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1451,48 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2902#2914#0" expanded="true" />
-            <element signature="e#3708#3720#0" expanded="true" />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="UPDATE dispa..." />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="SELECT FROM dispatcher..." />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..dispatcher..." />
-            <marker date="1450772414832" expanded="true" signature="-1:-1" placeholder="SELECT FROM dispatcher..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.060606">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2592#2608#0" expanded="true" />
-            <element signature="e#3340#3356#0" expanded="true" />
-            <element signature="e#4127#4143#0" expanded="true" />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="update emplo..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="SELECT FROM employee..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..employee..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="SELECT FROM specialization..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="SELECT FROM specialization..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="select COUNT..flight..." />
-            <marker date="1450773551723" expanded="true" signature="-1:-1" placeholder="select COUNT..flight..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/specializationDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34343433">
@@ -1531,38 +1528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3485#3495#0" expanded="true" />
-            <element signature="e#4484#4494#0" expanded="true" />
-            <marker date="1450773693212" expanded="true" signature="803:944" placeholder="INSERT INTO ..." />
-            <marker date="1450773693212" expanded="true" signature="1551:1645" placeholder="update emplo..." />
-            <marker date="1450773693212" expanded="true" signature="2320:2351" placeholder="SELECT FROM employee..." />
-            <marker date="1450773693212" expanded="true" signature="3201:3232" placeholder="DELETE FROM ..." />
-            <marker date="1450773693212" expanded="true" signature="3614:3636" placeholder="SELECT * FRO..employee..." />
-            <marker date="1450773693212" expanded="true" signature="4613:4646" placeholder="SELECT FROM employee..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="5" selection-start-line="125" selection-start-column="4" selection-end-line="149" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3443#3451#0" expanded="true" />
-            <element signature="e#4457#4465#0" expanded="true" />
-            <element signature="e#5509#5517#0" expanded="true" />
-            <element signature="e#6535#6543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1581,7 +1546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/groupDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62794614">
+        <state vertical-scroll-proportion="0.0">
           <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1593,6 +1558,87 @@
             <marker date="1450774621948" expanded="true" signature="1975:1989" placeholder="SELECT * FRO..employee..." />
             <marker date="1450774621948" expanded="true" signature="1975:1994" placeholder="SELECT * FRO..group..." />
             <marker date="1450774621948" expanded="true" signature="2616:2644" placeholder="SELECT FROM flight..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/dispatcherDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="59" selection-start-line="128" selection-start-column="46" selection-end-line="128" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2958#2970#0" expanded="true" />
+            <element signature="e#3820#3832#0" expanded="true" />
+            <marker date="1450776438585" expanded="true" signature="819:926" placeholder="INSERT INTO ..." />
+            <marker date="1450776438585" expanded="true" signature="1361:1421" placeholder="UPDATE dispa..." />
+            <marker date="1450776438585" expanded="true" signature="1923:1956" placeholder="SELECT FROM dispatcher..." />
+            <marker date="1450776438585" expanded="true" signature="2664:2697" placeholder="DELETE FROM ..." />
+            <marker date="1450776438585" expanded="true" signature="3089:3113" placeholder="SELECT * FRO..dispatcher..." />
+            <marker date="1450776438585" expanded="true" signature="3951:3986" placeholder="SELECT FROM dispatcher..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/employeeDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="91" selection-start-line="84" selection-start-column="91" selection-end-line="84" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3583#3593#0" expanded="true" />
+            <element signature="e#4680#4690#0" expanded="true" />
+            <marker date="1450776438561" expanded="true" signature="803:944" placeholder="INSERT INTO ..." />
+            <marker date="1450776438561" expanded="true" signature="1551:1645" placeholder="update emplo..." />
+            <marker date="1450776438561" expanded="true" signature="2320:2351" placeholder="SELECT FROM employee..." />
+            <marker date="1450776438561" expanded="true" signature="3299:3330" placeholder="DELETE FROM ..." />
+            <marker date="1450776438561" expanded="true" signature="3712:3734" placeholder="SELECT * FRO..employee..." />
+            <marker date="1450776438561" expanded="true" signature="4809:4842" placeholder="SELECT FROM employee..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/flightDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="66" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3541#3549#0" expanded="true" />
+            <element signature="e#4653#4661#0" expanded="true" />
+            <element signature="e#5803#5811#0" expanded="true" />
+            <element signature="e#6927#6935#0" expanded="true" />
+            <marker date="1450776438606" expanded="true" signature="686:837" placeholder="INSERT INTO ..." />
+            <marker date="1450776438606" expanded="true" signature="1471:1575" placeholder="update fligh..." />
+            <marker date="1450776438606" expanded="true" signature="2269:2298" placeholder="SELECT FROM flight..." />
+            <marker date="1450776438606" expanded="true" signature="3269:3298" placeholder="DELETE FROM ..." />
+            <marker date="1450776438606" expanded="true" signature="3668:3690" placeholder="SELECT * FRO..employee..." />
+            <marker date="1450776438606" expanded="true" signature="4780:4815" placeholder="SELECT FROM flight..." />
+            <marker date="1450776438606" expanded="true" signature="5930:5964" placeholder="SELECT FROM flight..." />
+            <marker date="1450776438606" expanded="true" signature="7054:7083" placeholder="SELECT FROM flight..." />
+            <marker date="1450776438606" expanded="true" signature="8133:8202" placeholder="select COUNT..flight..." />
+            <marker date="1450776438606" expanded="true" signature="8659:8726" placeholder="select COUNT..flight..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImplementation/specializationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7441077">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2620#2636#0" expanded="true" />
+            <element signature="e#3396#3412#0" expanded="true" />
+            <element signature="e#4211#4227#0" expanded="true" />
+            <marker date="1450776438643" expanded="true" signature="818:868" placeholder="INSERT INTO ..." />
+            <marker date="1450776438643" expanded="true" signature="1216:1259" placeholder="update speci..." />
+            <marker date="1450776438643" expanded="true" signature="1684:1721" placeholder="SELECT FROM specialization..." />
+            <marker date="1450776438643" expanded="true" signature="2307:2344" placeholder="DELETE FROM ..." />
+            <marker date="1450776438643" expanded="true" signature="2755:2783" placeholder="SELECT * FRO..specialization..." />
+            <marker date="1450776438643" expanded="true" signature="3531:3570" placeholder="SELECT FROM specialization..." />
+            <marker date="1450776438643" expanded="true" signature="4346:4383" placeholder="SELECT FROM specialization..." />
+            <marker date="1450776438643" expanded="true" signature="5036:5105" placeholder="select COUNT..specialization..." />
           </folding>
         </state>
       </provider>

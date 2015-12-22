@@ -64,8 +64,8 @@ public class specializationDAOImpl implements specializationDAO, BaseDAO<Special
 
         while (rs.next()) {
             specialization = new Specialization();
-            specialization.setId(Integer.parseInt(Constant.Specialization.ID));
-            specialization.setName(Constant.Specialization.NAME);
+            specialization.setId(Integer.parseInt(rs.getString(Constant.Specialization.ID)));
+            specialization.setName(rs.getString(Constant.Specialization.NAME));
         }
 
         return specialization;
@@ -94,8 +94,8 @@ public class specializationDAOImpl implements specializationDAO, BaseDAO<Special
 
         while (rs.next()) {
             specialization = new Specialization();
-            specialization.setId(Integer.parseInt(Constant.Specialization.ID));
-            specialization.setName(Constant.Specialization.NAME);
+            specialization.setId(Integer.parseInt(rs.getString(Constant.Specialization.ID)));
+            specialization.setName(rs.getString(Constant.Specialization.NAME));
 
             splz.add(specialization);
         }
@@ -117,8 +117,8 @@ public class specializationDAOImpl implements specializationDAO, BaseDAO<Special
 
         while (rs.next()) {
             specialization = new Specialization();
-            specialization.setId(Integer.parseInt(Constant.Specialization.ID));
-            specialization.setName(Constant.Specialization.NAME);
+            specialization.setId(Integer.parseInt(rs.getString(Constant.Specialization.ID)));
+            specialization.setName(rs.getString(Constant.Specialization.NAME));
 
             splz.add(specialization);
         }
@@ -140,8 +140,8 @@ public class specializationDAOImpl implements specializationDAO, BaseDAO<Special
 
         while (rs.next()) {
             specialization = new Specialization();
-            specialization.setId(Integer.parseInt(Constant.Specialization.ID));
-            specialization.setName(Constant.Specialization.NAME);
+            specialization.setId(Integer.parseInt(rs.getString(Constant.Specialization.ID)));
+            specialization.setName(rs.getString(Constant.Specialization.NAME));
 
             splz.add(specialization);
         }
